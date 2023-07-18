@@ -1,0 +1,73 @@
+#sm{
+    background-color: black;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.jpg{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+}
+.ab{
+    display: flex;
+    justify-content: center;
+}
+#lmao{
+
+    width:16em;
+    justify-content: center;
+    padding-top:3em;
+    padding-bottom: 3em;
+    border-radius: 2em;
+    box-shadow: 1px 1px 20px 1px  rgb(158, 158, 158);
+
+
+
+}
+#name,#email,#pass{
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 12em;
+}
+p{
+    text-align: center;
+}
+form{
+    padding: 6em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+#lol{
+    padding-top: 1.6em;
+    color: white;
+}
+#sup{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+p a{
+    text-decoration: none;
+}
+@media screen and (max-width:800px) {
+
+    #name,#email,#pass{
+        margin-bottom: 20px;
+        border-collapse: collapse;
+        border-radius: 6px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 10em;
+    }
+}
+footer{
+    padding-top: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Edit Issues</title>
+</head>
+<body id="sm">
+    <div id="portal">
+        <div class="jpg">
+            <img class="text-center" src="{{url_for('static',filename='vector.jpg')}}" alt="">
+        </div>
+        <h1>EDIT ISSUES</h1>
+        <form action="{{url_for('updateissue')}}" method="POST">
+           <div class="ab">
+            <div class="text-center" id="lmao">
+                <input type="text" class="text-center" value="{{id.Issue_Id}}" placeholder="Enter Issue Id" name="uid" id="pass"><br>
+                <input type="text" class="text-center" value="{{id.User_Name}}" placeholder=" Enter Username" name="uname" id="name"><br>
+                <input type="text" class="text-center" value="{{id.Book_Name}}" placeholder="Enter Bookname" name="bname" id="email"><br>
+                <input type="date" class="text-center" value="{{id.Issue_Date}}" placeholder="Enter Issue Date" name="idate" id="pass"><br>
+                <input type="date" class="text-center" value="{{id.Exp_Return_Date}}" placeholder="Enter Expected Return Date" name="edate" id="pass"><br>
+                 <input type="date" class="text-center" value="{{id.Return_Date}}" placeholder="Enter Return Date" name="rdate" id="pass"><br>
+                <input type="submit"  class="btn btn-primary" id="sup" value="EDIT ISSUES">
+            </div>
+           </div>
+
+        </form>
+    </div>
+</body>
+</html>
