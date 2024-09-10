@@ -1,1 +1,1 @@
-# flask_project
+# admin_panel
